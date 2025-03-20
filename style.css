@@ -1,0 +1,19 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cuerpo-pagina{
+    background-color: #2a1e1e;
+}
+
+.presentacion{
+    width: 50%;
+}
+
+.titulo{
+    color: #ffc5c1;
+}
