@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0;
@@ -10,10 +9,98 @@
     background-color: #2a1e1e;
 }
 
+.header-menu-links{
+    color: white;
+    text-decoration: none;
+}
+
 .presentacion{
     width: 50%;
+    padding: 20% 0 0 20%;
 }
 
 .titulo{
-    color: #ffc5c1;
+    color: white;
+    font-family: "Inter";
+    /*color: #ffc5c1;*/
+}
+
+.texto-intro{
+    color: white;
+    padding: 20px 0;
+}
+
+.links-personales{
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+    background-color: slateblue;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.links-personales:hover{/*cuado el raton esta encima*/
+
+}
+
+.titulo-tecnologias{
+    color: white;
+}
+
+.titulo-tecnologias{
+    padding: 250px 0 80px 0;
+    text-align: center;
+}
+
+.acomodo-tecnologias{
+    display: flex;
+    text-align: center;
+    padding: 0 29%;
+    gap: 10px;
+}
+
+.html-logo{
+    width: 150px;
+}
+
+.css-logo{
+    width: 150px;
+}
+
+.bloque-js{
+    padding: 0 0 0 50px;
+}
+
+.js-logo{
+    width: 90px;
+}
+
+.gh-logo{
+    width: 90px;
+}
+
+.bloque-gh{
+    padding-left: 50px;
+}
+
+.texto-tecno{
+    color: white;
+}
+
+.titulo-proyectos{
+    padding: 20%;
+    text-align: center;
+    color: white;
+}
+
+.lista-proyectos{
+    display: flex;
+}
+
+.img-amigo-secreto{
+    width: 500px;
+}
+
+.img-numero-secreto{
+    width: 500px;
 }
