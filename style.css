@@ -19,7 +19,10 @@
     color: #ffc5c1;
     text-decoration: none;
     font-family: "Montserrat";
-    padding: 25px 86px 25px 0;
+    margin: 25px 86px 25px 0;
+    border: 2px solid #ffc5c1;
+    padding: 8px;
+    border-radius: 8px;
 
 }
 
@@ -198,7 +201,7 @@
     display: flex;
     align-items: center;/*alinea los items al centro horizontalmente pero primero debe tener la propiedad flex sino no sirve*/
     text-align: center;
-    border-radius: 20px;
+    border-radius: 12px;
     margin: 10px;
     padding-right: 10px;
     text-decoration: none;
