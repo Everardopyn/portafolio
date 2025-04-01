@@ -258,3 +258,83 @@
         padding: 0 5% 0 26%;
     }
 }
+
+@media (width <= 480px){
+
+    .header-menu-links{
+        margin: 25px 5% 25px 0;
+    }
+
+    .presentacion{
+        width: 70%;
+        padding: 20% 0 0 12%;
+    }
+
+    .titulo-tecnologias{
+        padding: 25% 0 80px 0;
+    }
+
+    .acomodo-tecnologias{
+        flex-wrap: wrap;/*hace que se acomoden en linea pero si no caben bajan a la linea de abajo*/
+        padding: 0 10% 0 18%;
+        gap: 10px 10px;
+    }
+
+    .html-logo{
+        width: 7rem;
+    }
+
+    .css-logo{
+        width: 7rem;
+    }
+
+    .bloque-js{
+        padding: 0 0 0 5%;
+    }
+
+    .js-logo{
+        width: 4rem;
+    }
+
+    .bloque-gh{
+        padding-left: 11%;
+    }
+
+    .gh-logo{
+        width: 4rem;
+    }
+
+    .titulo-proyectos{
+        padding: 20% 0;
+    }
+
+    .img-amigo-secreto{
+        width: 100%;
+    }
+
+    .texto-proyectos{
+        width: 100%;
+    }
+
+    .img-numero-secreto{
+        width: 100%;
+    }
+
+    .img-encriptador{
+        width: 100%;
+        height: auto;
+    }
+
+    .img-barberia{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-nombre{
+        padding: 0 10% 0 10%;
+    }
+
+    .links-personales{
+        margin: 5px 10px 5px 0;
+    }
+}
