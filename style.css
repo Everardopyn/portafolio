@@ -6,7 +6,7 @@
 }
 
 .cuerpo-pagina{
-    background-color: #422340 ;/* #2a1e29; 2a1e1e*/
+    background-color: #2a1e1e ;/* #2a1e29; 2a1e1e*/
 }
 
 .header-menu{
@@ -20,7 +20,7 @@
     text-decoration: none;
     font-family: "Montserrat";
     margin: 25px 86px 25px 0;
-    border: 2px solid #ffc5c1;
+    /*border: 2px solid #ffc5c1;*/
     padding: 8px;
     border-radius: 8px;
 
@@ -28,7 +28,7 @@
 
 .presentacion{
     width: 50%;
-    padding: 20% 0 0 30%;
+    padding: 20% 0 0 25%;
 }
 
 .presentacion-sobre-mi{
