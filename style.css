@@ -28,7 +28,7 @@
 
 .presentacion{
     width: 50%;
-    padding: 20% 0 0 25%;
+    padding: 15% 0 0 25%;
 }
 
 .presentacion-sobre-mi{
@@ -39,6 +39,7 @@
 .titulo{
     color: white;
     font-family: "Inter";
+    font-size: 32px;
     /*color: #ffc5c1;*/
 }
 
@@ -46,6 +47,8 @@
     color: white;
     padding: 20px 0;
     font-family: 'Montserrat';
+    letter-spacing: 0.5px;/*espaciado entre cada letra*/
+    line-height: 130%;/*espacio entre cada liena de texto*/
 }
 
 .links-personales-inicio{
@@ -64,7 +67,7 @@
 
 .titulo-tecnologias{
     color: white;
-    padding: 250px 0 80px 0;
+    padding: 10rem 0 0 0;
     text-align: center;
     font-family: 'Inter';
 }
@@ -72,7 +75,7 @@
 .acomodo-tecnologias{
     display: flex;
     text-align: center;
-    padding: 0 29%;
+    padding: 10rem 29%;
     gap: 10px;
 }
 
@@ -106,7 +109,7 @@
 }
 
 .titulo-proyectos{
-    padding: 10% 0;
+    padding: 11rem 0;
     text-align: center;
     color: white;
     font-family: 'Inter';
