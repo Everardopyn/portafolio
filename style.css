@@ -272,17 +272,26 @@
         margin: 25px 5% 25px 0;
     }
 
+    .presentacion{
+        width: 60%;
+        padding: 15% 0 0 20%;
+    }
+
     .presentacion-sobre-mi{
         width: 70%;
         padding: 20% 0 10% 16%;
     }
 
     .links-personales-inicio{
-        padding: 2%;
+        padding: 4%;
+    }
+
+    .bloque-der{
+        margin: 0 0 10px 0;
     }
 
     .bloque-izq{
-        margin: unset;
+        margin: 0 0 10px 0;
     }
 
     .titulo-tecnologias{
@@ -312,7 +321,7 @@
     }
 
     .bloque-gh{
-        padding-left: 11%;
+        padding-left: 12%;
     }
 
     .gh-logo{
