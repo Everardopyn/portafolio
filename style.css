@@ -229,13 +229,17 @@
         width: auto;
     }
 
+    .links-personales-inicio{
+        padding: 2%;
+    }
+
     .titulo-tecnologias{
         width: 300px;
-        padding: 250px 0 80px 29%;
+        padding: 9rem 0 80px 29%;
     }
 
     .acomodo-tecnologias{
-        padding: 0 0 0 15%;
+        padding: 0 0 10% 15%;
         width: 50%;
     }
 
@@ -268,9 +272,17 @@
         margin: 25px 5% 25px 0;
     }
 
-    .presentacion{
+    .presentacion-sobre-mi{
         width: 70%;
-        padding: 20% 0 0 12%;
+        padding: 20% 0 10% 16%;
+    }
+
+    .links-personales-inicio{
+        padding: 2%;
+    }
+
+    .bloque-izq{
+        margin: unset;
     }
 
     .titulo-tecnologias{
@@ -279,7 +291,7 @@
 
     .acomodo-tecnologias{
         flex-wrap: wrap;/*hace que se acomoden en linea pero si no caben bajan a la linea de abajo*/
-        padding: 0 10% 0 18%;
+        padding: 0 10% 10% 18%;
         gap: 10px 10px;
     }
 
@@ -316,7 +328,7 @@
     }
 
     .texto-proyectos{
-        width: 100%;
+        width: auto;
     }
 
     .img-numero-secreto{
