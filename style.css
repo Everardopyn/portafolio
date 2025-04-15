@@ -1,28 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+:root{/*estas son variables*/
+    --color-primario: #2b2244;
+    --color-secundario: #040224;
+    --color-terceario: #ffc5c1;
+    --color-cuarto: #ffffff;
+    --color-quinto: slateblue;
+
+    --fuente-montserrat: "Montserrat", serif;
+    --fuente-inter: "Inter", serif;
+}
 *{
     padding: 0;
     margin: 0;
 }
 
 .cuerpo-pagina{
-    background-color: #24193d ;/* #2a1e29; 2a1e1e*/
+    background-color: var(--color-primario) ;/* #2a1e29; 2a1e1e*/
 }
 
 .header-menu{
-    background-color: #14031d;
+    background-color: var(--color-secundario);
     display: flex;
     justify-content: flex-end;
 }
 
 .header-menu-links{
-    color: #ffc5c1;
+    color: var(--color-terceario);
     text-decoration: none;
-    font-family: "Montserrat";
+    font-family: var(--fuente-montserrat);
     margin: 25px 86px 25px 0;
     /*border: 2px solid #ffc5c1;*/
     padding: 8px;
     border-radius: 8px;
+    font-size: 18px;
 }
 
 .header-menu-links :hover{
@@ -90,8 +102,9 @@
 .acomodo-tecnologias{
     display: flex;
     text-align: center;
-    padding: 10rem 29%;
+    padding: 10rem 0;
     gap: 10px;
+    justify-content: center;
 }
 
 .html-logo{
@@ -139,7 +152,8 @@
 
 .links-proyectos{
     text-decoration: none;
-    padding: 1rem;
+    margin: 1rem;
+    border-radius: 24px;
 }
 /*
 .bloque-der{
@@ -162,6 +176,10 @@
 .bloque-izq:hover{
     box-shadow: 0 24px 32px -8px #ffc5c1;
 }*/
+
+.links-proyectos:hover{
+    box-shadow: 0 24px 32px -8px #ffc5c1;
+}
 
 .texto-proyectos{
     width: 450px;
@@ -196,7 +214,7 @@
 .footer{
     display: flex;
     padding: 25px 0;
-    background-color: #07020c;
+    background-color: var(--color-secundario);
 }
 
 .footer-nombre{
