@@ -42,7 +42,7 @@
     position: absolute;
     width: 10px;
     height: 2px;
-    background-color: #fff;
+    background-color: var(--color-cuarto);
     bottom: 5px;
     left: 5px;
     border-radius: 4px;
@@ -50,7 +50,7 @@
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
 
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--color-cuarto);
 }
 
 .presentacion{
@@ -64,28 +64,28 @@
 }
 
 .titulo{
-    color: white;
+    color: var(--color-cuarto);
     font-family: "Inter";
     font-size: 32px;
     /*color: #ffc5c1;*/
 }
 
 .texto-intro{
-    color: rgb(255, 255, 255);
+    color: var(--color-cuarto);
     padding: 20px 0;
-    font-family: 'Montserrat';
+    font-family: var(--fuente-montserrat);
     letter-spacing: 0.5px;/*espaciado entre cada letra*/
     line-height: 130%;/*espacio entre cada liena de texto*/
 }
 
 .links-personales-inicio{
-    color: white;
+    color: var(--color-cuarto);
     text-decoration: none;
     padding: 1%;
-    background-color: slateblue;
+    background-color: var(--color-quinto);
     border-radius: 8px;
     margin: 8px;
-    font-family: "Montserrat";
+    font-family: var(--fuente-montserrat);
 }
 
 .links-personales:hover{/*cuado el raton esta encima*/
@@ -93,10 +93,10 @@
 }
 
 .titulo-tecnologias{
-    color: white;
+    color: var(--color-cuarto);
     padding: 10rem 0 0 0;
     text-align: center;
-    font-family: 'Inter';
+    font-family: var(--fuente-inter);
 }
 
 .acomodo-tecnologias{
@@ -132,15 +132,15 @@
 }
 
 .texto-tecno{
-    color: white;
-    font-family: "Montserrat";
+    color: var(--color-cuarto);
+    font-family: var(--fuente-montserrat);
 }
 
 .titulo-proyectos{
     padding: 11rem 0;
     text-align: center;
-    color: white;
-    font-family: 'Inter';
+    color: var(--color-cuarto);
+    font-family: var(--fuente-inter);
 }
 
 .lista-proyectos{
@@ -178,13 +178,13 @@
 }*/
 
 .links-proyectos:hover{
-    box-shadow: 0 24px 32px -8px #ffc5c1;
+    box-shadow: 0 24px 32px -8px var(--color-terceario);
 }
 
 .texto-proyectos{
     width: 450px;
-    color: white;
-    font-family: 'Montserrat';
+    color: var(--color-cuarto);
+    font-family: var(--fuente-montserrat);
     font-size: 14px;
     padding: 20px 10px;
 }
@@ -218,9 +218,9 @@
 }
 
 .footer-nombre{
-    font-family: 'Montserrat';
+    font-family: var(--fuente-montserrat);
     font-size: 16px;
-    color: white;
+    color: var(--color-cuarto);
     text-align: center;
     padding: 0 10% 0 30%;
     display: flex;
@@ -232,9 +232,9 @@
 }
 
 .links-personales{
-    border: 2px solid slateblue;
-    color: white;
-    font-family: "Montserrat";
+    border: 2px solid var(--color-quinto);
+    color: var(--color-cuarto);
+    font-family: var(--fuente-montserrat);
     display: flex;
     align-items: center;/*alinea los items al centro horizontalmente pero primero debe tener la propiedad flex sino no sirve*/
     text-align: center;
