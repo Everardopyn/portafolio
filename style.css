@@ -24,6 +24,9 @@
     background-color: var(--color-secundario);
     display: flex;
     justify-content: flex-end;
+    position: fixed;/*hace que la barra baje a la par que bajas*/
+    width: 100%;/*al usar fixed se reduce el tamaño y hay que ponerlo en 100% y si el texto
+    esta muy cerca a arriba se va a subir asi que hay que agregar padding o margin*/
 }
 
 .header-menu-links{
@@ -312,7 +315,7 @@
 
     .presentacion{
         width: 60%;
-        padding: 15% 0 0 20%;
+        padding: 30% 0 0 20%;
     }
 
     .presentacion-sobre-mi{
