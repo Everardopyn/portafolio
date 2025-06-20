@@ -359,6 +359,10 @@
         width: 3.4rem;
     }
 
+    .bloque-html{
+        padding-left: 15px;
+    }
+
     .bloque-css{
         padding-left: 60px;
     }
@@ -406,11 +410,11 @@
     }
 
     .footer{
-        padding: 25px 20px;
+        padding: 25px 40px;
     }
 
     .footer-nombre{
-        padding: 0 13%;
+        padding: 0 7%;
     }
 
     .links-personales{
