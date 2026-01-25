@@ -235,7 +235,7 @@
 }
 
 .footer-links{
-    display: grid;
+    display: flex;
 }
 
 .links-personales{
@@ -245,9 +245,9 @@
     display: flex;
     align-items: center;/*alinea los items al centro horizontalmente pero primero debe tener la propiedad flex sino no sirve*/
     text-align: center;
-    border-radius: 12px;
+    border-radius: 15px;
     margin: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     text-decoration: none;
 }
 
