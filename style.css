@@ -417,6 +417,10 @@
         padding: 0 7%;
     }
 
+    .footer-links{
+        display: grid;
+    }
+
     .links-personales{
         margin: 5px 10px 5px 0;
     }
